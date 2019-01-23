@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    background-image: url(https://i.ytimg.com/vi/T40NSkd7Olc/maxresdefault.jpg);
+    /* margin: 0; */
+}
+.content {
+    display: flex;
+    flex-flow: column;
+    flex: 0 1 auto;
+    /* height: 100%; */
+    margin: auto;
+}
+.content .mat-card {
+    flex: 0 1 auto;
+}
+
+.mat-card-footer {
+    margin: auto;
+}
+
+.strike {
+    color: gray;
+    text-decoration: line-through;
+}
+.mat-card-title#star-wars-title {
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+}
