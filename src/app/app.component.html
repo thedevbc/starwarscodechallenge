@@ -1,8 +1,10 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="main">
   <div class="content">
-    <mat-card class="mat-card">
-      <mat-card-title class="mat-card-title" id="star-wars-title">Star Wars Movies</mat-card-title>
+    <mat-card class="mat-card" role="group">
+      <mat-card-header class="mat-card-header">
+        <mat-card-title class="mat-card-title" id="star-wars-title">Star Wars Movies</mat-card-title>
+      </mat-card-header>
       <mat-card-content class="mat-card-content">
         <mat-selection-list class="mat-selection-list">
           <ng-container *ngFor="let movie of movies">
