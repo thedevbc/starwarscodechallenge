@@ -17,7 +17,7 @@ export class AppComponent {
     { title: 'Star Wars Episode III - Revenge of the Sith', selected: false, enabled: true },
     { title: 'Star Wars Episode VII - The Force Awakens', selected: false, enabled: true },
     { title: 'Star Wars Episode IX', selected: false, enabled: false },
-  ]
+  ];
 
 
 
