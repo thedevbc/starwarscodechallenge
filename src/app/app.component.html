@@ -9,7 +9,7 @@
         <mat-selection-list class="mat-selection-list">
           <ng-container *ngFor="let movie of movies">
             <mat-list-option class="mat-list-option" *ngIf="movie.enabled;else disabledItem" (click)="movie.selected = !movie.selected"
-              [ngClass]="{'strike' : movie.selected}">
+              [ngClass]="{'strike' : movie.selected}" [checkboxPosition]="before">
               {{movie.title}}
             </mat-list-option>
             <ng-template #disabledItem>
